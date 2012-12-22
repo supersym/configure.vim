@@ -1,0 +1,34 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Supersymmetry <supersym@localhost.localdomain>
+#
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   .vimbackup/COMMIT_EDITMSG~
+#	modified:   .viminfo
+#	new file:   .vimundo/%data%solo%ace%users%s%supersym%.config%vcsh%repo.d%vim.git%COMMIT_EDITMSG
+#	new file:   .vimviews/~=+.config=+vcsh=+repo.d=+vim.git=+COMMIT_EDITMSG=
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.Xresources
+#	.bash_history
+#	.bash_profile
+#	.bashrc
+#	.bzr.log
+#	.cache/
+#	.config/
+#	.gem/
+#	.mrconfig
+#	.neocon/
+#	.rvm/
+#	.tmux.conf
+#	.xinitrc
+#	.xsession
+#	.zcompdump
+#	.zsh_history

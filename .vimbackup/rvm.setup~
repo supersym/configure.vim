@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+# Preamble
+
+# Exit immediately on errors
+set -e
+
+printf "\n%s\n%s\n%s\n%s" "Please choose your installation method below:" "1) Fully automatic delegated trust" "2) Paranoid (read source code first)" "Please enter 1 or 2:"
+read -n 1 installation_method
+
+# Get the stable version and install automatically
+[[ "${installation_method}" == 1 ]] && \
+\curl -L https://get.rvm.io | bash -s stable || \
+{
+    # Paranoid mode: download source and inspect first
+    curl -L get.rvm.io > rvm-install && clear
+    echo 'Finished download, please inspect the code by pressing any key,...'
+    read && less rvm-install && echo 'Press Control+C to abort or any key to continue setup...'
+    read && bash < ./rvm-install
+}
+
+# Sorry, can't help you with what OS packages you need but here's some output
+rvm requirements
+
+
+
